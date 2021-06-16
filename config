@@ -1,3 +1,9 @@
+mixed-port: 7890
+allow-lan: false
+mode: Global
+log-level: silent
+external-controller: 127.0.0.1:9090
+
 proxies:
   - {name: (Youtube频道：工具大师！)11, server: 194.41.112.14, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
   - {name: 103.93.56.151:57478, server: 103.93.56.151, port: 57478, type: ss, cipher: chacha20-ietf-poly1305, password: ku382YXK8cLE}
