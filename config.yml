@@ -1,9 +1,9 @@
-port: 7890
-socks-port: 7891
-allow-lan: true
-mode: Rule
-log-level: info
-external-controller: :9090
+mixed-port: 7890
+allow-lan: false
+mode: Global
+log-level: silent
+external-controller: 127.0.0.1:9090
+
 proxies:
   - {name: (Youtube频道：工具大师！)11, server: 194.41.112.14, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
   - {name: 103.93.56.151:57478, server: 103.93.56.151, port: 57478, type: ss, cipher: chacha20-ietf-poly1305, password: ku382YXK8cLE}
@@ -34,31 +34,31 @@ proxies:
   - {name: 91.90.121.163:31572, server: 91.90.121.163, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
   - {name: 91.90.121.187:33992, server: 91.90.121.187, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
   - {name: 91.90.123.155:31572, server: 91.90.123.155, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: CA_51, server: 45.62.233.142, port: 2087, type: vmess, uuid: bf53c406-c1e1-11eb-a686-0050569bb8c9, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: tls, ws-headers: {Host: a3.ssrsub.one}}
-  - {name: CA_53, server: 45.62.233.34, port: 2087, type: vmess, uuid: b6b44b86-c1e1-11eb-85a3-0050569b8c57, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: tls, ws-headers: {Host: a2.ssrsub.one}}
-  - {name: CA_55, server: 45.62.233.34, port: 2087, type: vmess, uuid: b6b44b86-c1e1-11eb-85a3-0050569b8c57, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: tls, ws-headers: {Host: a2.ssrsub.one}}
-  - {name: CA_57, server: 45.62.233.142, port: 2087, type: vmess, uuid: bf53c406-c1e1-11eb-a686-0050569bb8c9, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: tls, ws-headers: {Host: a3.ssrsub.one}}
-  - {name: CA_58, server: 142.47.219.13, port: 2087, type: vmess, uuid: bce319a6-c1e1-11eb-8936-0050569b2f15, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: tls, ws-headers: {Host: a4.ssrsub.one}}
-  - {name: 🇨🇳 cn01.fengyecloud.me:5700, server: cn01.fengyecloud.me, port: 5700, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocolparam: 30728:nSTbwm, obfsparam: 5238830728.microsoft.com}
-  - {name: cu.gkd.world:10693, server: cu.gkd.world, port: 10693, type: ssr, cipher: aes-256-cfb, password: TuXJdt, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocolparam: 10522:SiJIyH, obfsparam: ""}
-  - {name: n21.boom.party:15000, server: n21.boom.party, port: 15000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocolparam: 11850:ZVYBdy, obfsparam: ""}
-  - {name: 🇸🇬 ss.sg.sshmax.net:8139, server: ss.sg.sshmax.net, port: 8139, type: ss, cipher: chacha20-ietf-poly1305, password: qyzhBfoKRzXl}
-  - {name: 🇨🇳 Relay_🇨🇳CN-🇬🇧GB_652, server: guangzhoucm.cdn223.me, port: 47003, type: vmess, uuid: b815d9cf-eead-3fc1-8c27-9c1ff3962b69, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /hls, ws-headers: {Host: linodeyg.xiaobaiyun.me}}
-  - {name: 🇨🇳 Relay_🇹🇼TW-🇹🇼TW_3619, server: hinet.nufsx.top, port: 8088, type: vmess, uuid: 5bf34c7c-1211-4c73-b292-3593cd582005, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: hinet.nufsx.top}}
-  - {name: 🇭🇰 HK_249, server: 18.162.168.190, port: 30040, type: vmess, uuid: 39341fe7-b8b7-4605-a811-af1f1d46d4fb, alterId: 100, cipher: auto, tls: false}
-  - {name: 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_664, server: hz.hxlm.cc, port: 9111, type: vmess, uuid: 3d6a6885-4d84-4fad-bb60-6922f459b3f3, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: hz.hxlm.cc}}
-  - {name: 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_666, server: cscu.hxlm.cc, port: 9111, type: vmess, uuid: 3d6a6885-4d84-4fad-bb60-6922f459b3f3, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: cscu.hxlm.cc}}
-  - {name: 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_667, server: cscu.hxlm.cc, port: 10011, type: vmess, uuid: 3d6a6885-4d84-4fad-bb60-6922f459b3f3, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: cscu.hxlm.cc}}
-  - {name: 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_1970, server: hk4.xyttk.vip, port: 80, type: vmess, uuid: 5bf34c7c-1211-4c73-b292-3593cd582005, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: hk4.xyttk.vip}}
-  - {name: 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_1971, server: hk.1.xyttk.vip, port: 80, type: vmess, uuid: 5bf34c7c-1211-4c73-b292-3593cd582005, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: hk.1.xyttk.vip}}
-  - {name: 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_1972, server: hk3.xyttk.vip, port: 80, type: vmess, uuid: 5bf34c7c-1211-4c73-b292-3593cd582005, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: hk3.xyttk.vip}}
-  - {name: 🇨🇳 Relay_🇨🇳CN-🇯🇵JP_79, server: 42.81.8.1, port: 80, type: vmess, uuid: 197a81f2-fd2c-4d26-88db-72170a8df6a7, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 006.cdn.8x.cx.hit.edu.cn}}
-  - {name: 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_473, server: trojan-sb-95-tw.speedtestcustom.tk, port: 443, type: trojan, password: 76f5c50900006f6674ad8c443b39edd5, sni: trojan-sb-95-tw.speedtestcustom.tk}
-  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_4963, server: ac2088.herokuapp.com, port: 443, type: vmess, uuid: d1babe08-f8ac-490b-b66f-9be27467f3cc, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: tls, ws-headers: {Host: ac2088.herokuapp.com}}
-  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_4964, server: usa4a-node.3366test.com, port: 13723, type: vmess, uuid: a90597c1-bab3-4217-ad6f-0838675c8634, alterId: 10, cipher: auto, tls: false, network: ws, ws-path: tls, ws-headers: {Host: usa4a-node.3366test.com}}
-  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_714, server: vip9-3.lounge.workers.dev, port: 443, type: vmess, uuid: f5121518-a614-4a16-b1f1-8dbc0c502854, alterId: 64, cipher: auto, tls: false, network: ws, ws-path: tls, ws-headers: {Host: vip9-3.lounge.workers.dev}}
-  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_718, server: ac2088.herokuapp.com, port: 443, type: vmess, uuid: d1babe08-f8ac-490b-b66f-9be27467f3cc, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: tls, ws-headers: {Host: ac2088.herokuapp.com}}
-  - {name: 🇺🇸 Relay_🏁ZZ-🇺🇸US_5307, server: 141.101.120.190, port: 80, type: vmess, uuid: 6b0dc2a5-0b70-4def-ba65-93d9c1237a0e, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: v2ray.jun8.workers.dev}}
+  - {name: CA_51, server: 45.62.233.142, port: 2087, type: vmess, uuid: bf53c406-c1e1-11eb-a686-0050569bb8c9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: tls, ws-headers: {Host: a3.ssrsub.one}}
+  - {name: CA_53, server: 45.62.233.34, port: 2087, type: vmess, uuid: b6b44b86-c1e1-11eb-85a3-0050569b8c57, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: tls, ws-headers: {Host: a2.ssrsub.one}}
+  - {name: CA_55, server: 45.62.233.34, port: 2087, type: vmess, uuid: b6b44b86-c1e1-11eb-85a3-0050569b8c57, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: tls, ws-headers: {Host: a2.ssrsub.one}}
+  - {name: CA_57, server: 45.62.233.142, port: 2087, type: vmess, uuid: bf53c406-c1e1-11eb-a686-0050569bb8c9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: tls, ws-headers: {Host: a3.ssrsub.one}}
+  - {name: CA_58, server: 142.47.219.13, port: 2087, type: vmess, uuid: bce319a6-c1e1-11eb-8936-0050569b2f15, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: tls, ws-headers: {Host: a4.ssrsub.one}}
+  - {name: cn01.fengyecloud.me:5700, server: cn01.fengyecloud.me, port: 5700, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 30728:nSTbwm, obfs-param: 5238830728.microsoft.com}
+  - {name: cu.gkd.world:10693, server: cu.gkd.world, port: 10693, type: ssr, cipher: aes-256-cfb, password: TuXJdt, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 10522:SiJIyH, obfs-param: ""}
+  - {name: n21.boom.party:15000, server: n21.boom.party, port: 15000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 11850:ZVYBdy, obfs-param: ""}
+  - {name: ss.sg.sshmax.net:8139, server: ss.sg.sshmax.net, port: 8139, type: ss, cipher: chacha20-ietf-poly1305, password: qyzhBfoKRzXl}
+  - {name: 🇨🇳 Relay_🇨🇳CN-🇬🇧GB_652, server: guangzhoucm.cdn223.me, port: 47003, type: vmess, uuid: b815d9cf-eead-3fc1-8c27-9c1ff3962b69, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /hls, ws-headers: {Host: linodeyg.xiaobaiyun.me}}
+  - {name: 🇨🇳 Relay_🇹🇼TW-🇹🇼TW_3619, server: hinet.nufsx.top, port: 8088, type: vmess, uuid: 5bf34c7c-1211-4c73-b292-3593cd582005, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: hinet.nufsx.top}}
+  - {name: 🇭🇰 HK_249, server: 18.162.168.190, port: 30040, type: vmess, uuid: 39341fe7-b8b7-4605-a811-af1f1d46d4fb, alterId: 100, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_664, server: hz.hxlm.cc, port: 9111, type: vmess, uuid: 3d6a6885-4d84-4fad-bb60-6922f459b3f3, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: hz.hxlm.cc}}
+  - {name: 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_666, server: cscu.hxlm.cc, port: 9111, type: vmess, uuid: 3d6a6885-4d84-4fad-bb60-6922f459b3f3, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: cscu.hxlm.cc}}
+  - {name: 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_667, server: cscu.hxlm.cc, port: 10011, type: vmess, uuid: 3d6a6885-4d84-4fad-bb60-6922f459b3f3, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: cscu.hxlm.cc}}
+  - {name: 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_1970, server: hk4.xyttk.vip, port: 80, type: vmess, uuid: 5bf34c7c-1211-4c73-b292-3593cd582005, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: hk4.xyttk.vip}}
+  - {name: 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_1971, server: hk.1.xyttk.vip, port: 80, type: vmess, uuid: 5bf34c7c-1211-4c73-b292-3593cd582005, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: hk.1.xyttk.vip}}
+  - {name: 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_1972, server: hk3.xyttk.vip, port: 80, type: vmess, uuid: 5bf34c7c-1211-4c73-b292-3593cd582005, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: hk3.xyttk.vip}}
+  - {name: 🇯🇵 Relay_🇨🇳CN-🇯🇵JP_79, server: 42.81.8.1, port: 80, type: vmess, uuid: 197a81f2-fd2c-4d26-88db-72170a8df6a7, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 006.cdn.8x.cx.hit.edu.cn}}
+  - {name: 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_473, server: trojan-sb-95-tw.speedtestcustom.tk, port: 443, type: trojan, password: 76f5c50900006f6674ad8c443b39edd5, sni: trojan-sb-95-tw.speedtestcustom.tk, skip-cert-verify: false}
+  - {name: 🇺🇲 Relay_🇺🇸US-🇺🇸US_4963, server: ac2088.herokuapp.com, port: 443, type: vmess, uuid: d1babe08-f8ac-490b-b66f-9be27467f3cc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: tls, ws-headers: {Host: ac2088.herokuapp.com}}
+  - {name: 🇺🇲 Relay_🇺🇸US-🇺🇸US_4964, server: usa4a-node.3366test.com, port: 13723, type: vmess, uuid: a90597c1-bab3-4217-ad6f-0838675c8634, alterId: 10, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: tls, ws-headers: {Host: usa4a-node.3366test.com}}
+  - {name: 🇺🇲 Relay_🇺🇸US-🇺🇸US_714, server: vip9-3.lounge.workers.dev, port: 443, type: vmess, uuid: f5121518-a614-4a16-b1f1-8dbc0c502854, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: tls, ws-headers: {Host: vip9-3.lounge.workers.dev}}
+  - {name: 🇺🇲 Relay_🇺🇸US-🇺🇸US_718, server: ac2088.herokuapp.com, port: 443, type: vmess, uuid: d1babe08-f8ac-490b-b66f-9be27467f3cc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: tls, ws-headers: {Host: ac2088.herokuapp.com}}
+  - {name: 🇺🇲 Relay_🏁ZZ-🇺🇸US_5307, server: 141.101.120.190, port: 80, type: vmess, uuid: 6b0dc2a5-0b70-4def-ba65-93d9c1237a0e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: v2ray.jun8.workers.dev}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -99,10 +99,10 @@ proxy-groups:
       - CA_55
       - CA_57
       - CA_58
-      - 🇨🇳 cn01.fengyecloud.me:5700
+      - cn01.fengyecloud.me:5700
       - cu.gkd.world:10693
       - n21.boom.party:15000
-      - 🇸🇬 ss.sg.sshmax.net:8139
+      - ss.sg.sshmax.net:8139
       - 🇨🇳 Relay_🇨🇳CN-🇬🇧GB_652
       - 🇨🇳 Relay_🇹🇼TW-🇹🇼TW_3619
       - 🇭🇰 HK_249
@@ -112,18 +112,17 @@ proxy-groups:
       - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_1970
       - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_1971
       - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_1972
-      - 🇨🇳 Relay_🇨🇳CN-🇯🇵JP_79
+      - 🇯🇵 Relay_🇨🇳CN-🇯🇵JP_79
       - 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_473
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_4963
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_4964
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_714
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_718
-      - 🇺🇸 Relay_🏁ZZ-🇺🇸US_5307
+      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_4963
+      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_4964
+      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_714
+      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_718
+      - 🇺🇲 Relay_🏁ZZ-🇺🇸US_5307
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
-    tolerance: 50
     proxies:
       - (Youtube频道：工具大师！)11
       - 103.93.56.151:57478
@@ -159,10 +158,10 @@ proxy-groups:
       - CA_55
       - CA_57
       - CA_58
-      - 🇨🇳 cn01.fengyecloud.me:5700
+      - cn01.fengyecloud.me:5700
       - cu.gkd.world:10693
       - n21.boom.party:15000
-      - 🇸🇬 ss.sg.sshmax.net:8139
+      - ss.sg.sshmax.net:8139
       - 🇨🇳 Relay_🇨🇳CN-🇬🇧GB_652
       - 🇨🇳 Relay_🇹🇼TW-🇹🇼TW_3619
       - 🇭🇰 HK_249
@@ -172,13 +171,13 @@ proxy-groups:
       - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_1970
       - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_1971
       - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_1972
-      - 🇨🇳 Relay_🇨🇳CN-🇯🇵JP_79
+      - 🇯🇵 Relay_🇨🇳CN-🇯🇵JP_79
       - 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_473
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_4963
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_4964
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_714
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_718
-      - 🇺🇸 Relay_🏁ZZ-🇺🇸US_5307
+      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_4963
+      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_4964
+      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_714
+      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_718
+      - 🇺🇲 Relay_🏁ZZ-🇺🇸US_5307
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -219,10 +218,10 @@ proxy-groups:
       - CA_55
       - CA_57
       - CA_58
-      - 🇨🇳 cn01.fengyecloud.me:5700
+      - cn01.fengyecloud.me:5700
       - cu.gkd.world:10693
       - n21.boom.party:15000
-      - 🇸🇬 ss.sg.sshmax.net:8139
+      - ss.sg.sshmax.net:8139
       - 🇨🇳 Relay_🇨🇳CN-🇬🇧GB_652
       - 🇨🇳 Relay_🇹🇼TW-🇹🇼TW_3619
       - 🇭🇰 HK_249
@@ -232,13 +231,13 @@ proxy-groups:
       - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_1970
       - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_1971
       - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_1972
-      - 🇨🇳 Relay_🇨🇳CN-🇯🇵JP_79
+      - 🇯🇵 Relay_🇨🇳CN-🇯🇵JP_79
       - 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_473
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_4963
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_4964
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_714
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_718
-      - 🇺🇸 Relay_🏁ZZ-🇺🇸US_5307
+      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_4963
+      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_4964
+      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_714
+      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_718
+      - 🇺🇲 Relay_🏁ZZ-🇺🇸US_5307
   - name: 📲 电报信息
     type: select
     proxies:
@@ -278,10 +277,10 @@ proxy-groups:
       - CA_55
       - CA_57
       - CA_58
-      - 🇨🇳 cn01.fengyecloud.me:5700
+      - cn01.fengyecloud.me:5700
       - cu.gkd.world:10693
       - n21.boom.party:15000
-      - 🇸🇬 ss.sg.sshmax.net:8139
+      - ss.sg.sshmax.net:8139
       - 🇨🇳 Relay_🇨🇳CN-🇬🇧GB_652
       - 🇨🇳 Relay_🇹🇼TW-🇹🇼TW_3619
       - 🇭🇰 HK_249
@@ -291,13 +290,13 @@ proxy-groups:
       - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_1970
       - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_1971
       - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_1972
-      - 🇨🇳 Relay_🇨🇳CN-🇯🇵JP_79
+      - 🇯🇵 Relay_🇨🇳CN-🇯🇵JP_79
       - 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_473
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_4963
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_4964
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_714
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_718
-      - 🇺🇸 Relay_🏁ZZ-🇺🇸US_5307
+      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_4963
+      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_4964
+      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_714
+      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_718
+      - 🇺🇲 Relay_🏁ZZ-🇺🇸US_5307
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -337,10 +336,10 @@ proxy-groups:
       - CA_55
       - CA_57
       - CA_58
-      - 🇨🇳 cn01.fengyecloud.me:5700
+      - cn01.fengyecloud.me:5700
       - cu.gkd.world:10693
       - n21.boom.party:15000
-      - 🇸🇬 ss.sg.sshmax.net:8139
+      - ss.sg.sshmax.net:8139
       - 🇨🇳 Relay_🇨🇳CN-🇬🇧GB_652
       - 🇨🇳 Relay_🇹🇼TW-🇹🇼TW_3619
       - 🇭🇰 HK_249
@@ -350,13 +349,13 @@ proxy-groups:
       - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_1970
       - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_1971
       - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_1972
-      - 🇨🇳 Relay_🇨🇳CN-🇯🇵JP_79
+      - 🇯🇵 Relay_🇨🇳CN-🇯🇵JP_79
       - 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_473
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_4963
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_4964
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_714
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_718
-      - 🇺🇸 Relay_🏁ZZ-🇺🇸US_5307
+      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_4963
+      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_4964
+      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_714
+      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_718
+      - 🇺🇲 Relay_🏁ZZ-🇺🇸US_5307
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -396,10 +395,10 @@ proxy-groups:
       - CA_55
       - CA_57
       - CA_58
-      - 🇨🇳 cn01.fengyecloud.me:5700
+      - cn01.fengyecloud.me:5700
       - cu.gkd.world:10693
       - n21.boom.party:15000
-      - 🇸🇬 ss.sg.sshmax.net:8139
+      - ss.sg.sshmax.net:8139
       - 🇨🇳 Relay_🇨🇳CN-🇬🇧GB_652
       - 🇨🇳 Relay_🇹🇼TW-🇹🇼TW_3619
       - 🇭🇰 HK_249
@@ -409,73 +408,13 @@ proxy-groups:
       - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_1970
       - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_1971
       - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_1972
-      - 🇨🇳 Relay_🇨🇳CN-🇯🇵JP_79
+      - 🇯🇵 Relay_🇨🇳CN-🇯🇵JP_79
       - 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_473
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_4963
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_4964
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_714
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_718
-      - 🇺🇸 Relay_🏁ZZ-🇺🇸US_5307
-  - name: 📢 谷歌FCM
-    type: select
-    proxies:
-      - 🚀 节点选择
-      - 🎯 全球直连
-      - ♻️ 自动选择
-      - (Youtube频道：工具大师！)11
-      - 103.93.56.151:57478
-      - 104.200.131.165:33992
-      - 137.59.52.107:33992
-      - 137.59.52.107:39772
-      - 137.59.52.107:40093
-      - 143.244.42.71:31572
-      - 143.244.60.164:39772
-      - 148.72.169.213:33992
-      - 185.108.105.97:50168
-      - 185.38.150.124:31572
-      - 198.147.22.87:33992
-      - 198.147.22.87:35200
-      - 212.102.35.218:31572
-      - 212.102.44.83:31944
-      - 212.102.44.83:35294
-      - 212.102.44.83:40093
-      - 23.82.11.49:37588
-      - 23.82.11.49:39772
-      - 5.226.139.149:47121
-      - 84.17.35.118:34815
-      - 84.17.35.118:47027
-      - 84.17.35.118:49396
-      - 84.17.35.86:39772
-      - 89.187.163.215:33992
-      - 89.46.223.239:39772
-      - 91.90.121.163:31572
-      - 91.90.121.187:33992
-      - 91.90.123.155:31572
-      - CA_51
-      - CA_53
-      - CA_55
-      - CA_57
-      - CA_58
-      - 🇨🇳 cn01.fengyecloud.me:5700
-      - cu.gkd.world:10693
-      - n21.boom.party:15000
-      - 🇸🇬 ss.sg.sshmax.net:8139
-      - 🇨🇳 Relay_🇨🇳CN-🇬🇧GB_652
-      - 🇨🇳 Relay_🇹🇼TW-🇹🇼TW_3619
-      - 🇭🇰 HK_249
-      - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_664
-      - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_666
-      - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_667
-      - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_1970
-      - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_1971
-      - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_1972
-      - 🇨🇳 Relay_🇨🇳CN-🇯🇵JP_79
-      - 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_473
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_4963
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_4964
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_714
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_718
-      - 🇺🇸 Relay_🏁ZZ-🇺🇸US_5307
+      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_4963
+      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_4964
+      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_714
+      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_718
+      - 🇺🇲 Relay_🏁ZZ-🇺🇸US_5307
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -532,10 +471,10 @@ proxy-groups:
       - CA_55
       - CA_57
       - CA_58
-      - 🇨🇳 cn01.fengyecloud.me:5700
+      - cn01.fengyecloud.me:5700
       - cu.gkd.world:10693
       - n21.boom.party:15000
-      - 🇸🇬 ss.sg.sshmax.net:8139
+      - ss.sg.sshmax.net:8139
       - 🇨🇳 Relay_🇨🇳CN-🇬🇧GB_652
       - 🇨🇳 Relay_🇹🇼TW-🇹🇼TW_3619
       - 🇭🇰 HK_249
@@ -545,13 +484,13 @@ proxy-groups:
       - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_1970
       - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_1971
       - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_1972
-      - 🇨🇳 Relay_🇨🇳CN-🇯🇵JP_79
+      - 🇯🇵 Relay_🇨🇳CN-🇯🇵JP_79
       - 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_473
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_4963
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_4964
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_714
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_718
-      - 🇺🇸 Relay_🏁ZZ-🇺🇸US_5307
+      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_4963
+      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_4964
+      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_714
+      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_718
+      - 🇺🇲 Relay_🏁ZZ-🇺🇸US_5307
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
@@ -579,21 +518,6 @@ rules:
  - DOMAIN-SUFFIX,routerlogin.com,🎯 全球直连
  - DOMAIN-SUFFIX,tendawifi.com,🎯 全球直连
  - DOMAIN-SUFFIX,zte.home,🎯 全球直连
- - DOMAIN-SUFFIX,ol.epicgames.com,🎯 全球直连
- - DOMAIN-SUFFIX,dizhensubao.getui.com,🎯 全球直连
- - DOMAIN,dl.google.com,🎯 全球直连
- - DOMAIN-SUFFIX,googletraveladservices.com,🎯 全球直连
- - DOMAIN-SUFFIX,tracking-protection.cdn.mozilla.net,🎯 全球直连
- - DOMAIN,origin-a.akamaihd.net,🎯 全球直连
- - DOMAIN,fairplay.l.qq.com,🎯 全球直连
- - DOMAIN,livew.l.qq.com,🎯 全球直连
- - DOMAIN,vd.l.qq.com,🎯 全球直连
- - DOMAIN,analytics.strava.com,🎯 全球直连
- - DOMAIN,msg.umeng.com,🎯 全球直连
- - DOMAIN,msg.umengcloud.com,🎯 全球直连
- - DOMAIN,tracking.miui.com,🎯 全球直连
- - DOMAIN,app.adjust.com,🎯 全球直连
- - DOMAIN,bdtj.tagtic.cn,🎯 全球直连
  - DOMAIN-KEYWORD,admarvel,🛑 全球拦截
  - DOMAIN-KEYWORD,admaster,🛑 全球拦截
  - DOMAIN-KEYWORD,adsage,🛑 全球拦截
@@ -2244,41 +2168,6 @@ rules:
  - DOMAIN-SUFFIX,tralog.ganji.com,🍃 应用净化
  - DOMAIN-SUFFIX,up.qingdaonews.com,🍃 应用净化
  - DOMAIN-SUFFIX,vaserviece.10jqka.com.cn,🍃 应用净化
- - DOMAIN,alt1-mtalk.google.com,📢 谷歌FCM
- - DOMAIN,alt2-mtalk.google.com,📢 谷歌FCM
- - DOMAIN,alt3-mtalk.google.com,📢 谷歌FCM
- - DOMAIN,alt4-mtalk.google.com,📢 谷歌FCM
- - DOMAIN,alt5-mtalk.google.com,📢 谷歌FCM
- - DOMAIN,alt6-mtalk.google.com,📢 谷歌FCM
- - DOMAIN,alt7-mtalk.google.com,📢 谷歌FCM
- - DOMAIN,alt8-mtalk.google.com,📢 谷歌FCM
- - DOMAIN,mtalk.google.com,📢 谷歌FCM
- - IP-CIDR,64.233.177.188/32,📢 谷歌FCM,no-resolve
- - IP-CIDR,64.233.186.188/32,📢 谷歌FCM,no-resolve
- - IP-CIDR,64.233.187.188/32,📢 谷歌FCM,no-resolve
- - IP-CIDR,64.233.188.188/32,📢 谷歌FCM,no-resolve
- - IP-CIDR,64.233.189.188/32,📢 谷歌FCM,no-resolve
- - IP-CIDR,74.125.23.188/32,📢 谷歌FCM,no-resolve
- - IP-CIDR,74.125.24.188/32,📢 谷歌FCM,no-resolve
- - IP-CIDR,74.125.28.188/32,📢 谷歌FCM,no-resolve
- - IP-CIDR,74.125.127.188/32,📢 谷歌FCM,no-resolve
- - IP-CIDR,74.125.137.188/32,📢 谷歌FCM,no-resolve
- - IP-CIDR,74.125.203.188/32,📢 谷歌FCM,no-resolve
- - IP-CIDR,74.125.204.188/32,📢 谷歌FCM,no-resolve
- - IP-CIDR,74.125.206.188/32,📢 谷歌FCM,no-resolve
- - IP-CIDR,108.177.125.188/32,📢 谷歌FCM,no-resolve
- - IP-CIDR,142.250.4.188/32,📢 谷歌FCM,no-resolve
- - IP-CIDR,142.250.10.188/32,📢 谷歌FCM,no-resolve
- - IP-CIDR,142.250.31.188/32,📢 谷歌FCM,no-resolve
- - IP-CIDR,142.250.96.188/32,📢 谷歌FCM,no-resolve
- - IP-CIDR,172.217.194.188/32,📢 谷歌FCM,no-resolve
- - IP-CIDR,172.217.218.188/32,📢 谷歌FCM,no-resolve
- - IP-CIDR,172.217.219.188/32,📢 谷歌FCM,no-resolve
- - IP-CIDR,172.253.63.188/32,📢 谷歌FCM,no-resolve
- - IP-CIDR,172.253.122.188/32,📢 谷歌FCM,no-resolve
- - IP-CIDR,173.194.175.188/32,📢 谷歌FCM,no-resolve
- - IP-CIDR,173.194.218.188/32,📢 谷歌FCM,no-resolve
- - IP-CIDR,209.85.233.188/32,📢 谷歌FCM,no-resolve
  - DOMAIN-SUFFIX,265.com,🎯 全球直连
  - DOMAIN-SUFFIX,2mdn.net,🎯 全球直连
  - DOMAIN-SUFFIX,alt1-mtalk.google.com,🎯 全球直连
@@ -2420,18 +2309,6 @@ rules:
  - IP-CIDR,192.35.50.0/24,🍎 苹果服务,no-resolve
  - IP-CIDR,198.183.17.0/24,🍎 苹果服务,no-resolve
  - IP-CIDR,205.180.175.0/24,🍎 苹果服务,no-resolve
- - DOMAIN-SUFFIX,t.me,📲 电报信息
- - DOMAIN-SUFFIX,tdesktop.com,📲 电报信息
- - DOMAIN-SUFFIX,telegra.ph,📲 电报信息
- - DOMAIN-SUFFIX,telegram.me,📲 电报信息
- - DOMAIN-SUFFIX,telegram.org,📲 电报信息
- - DOMAIN-SUFFIX,telesco.pe,📲 电报信息
- - IP-CIDR,91.108.0.0/16,📲 电报信息,no-resolve
- - IP-CIDR,109.239.140.0/24,📲 电报信息,no-resolve
- - IP-CIDR,149.154.160.0/20,📲 电报信息,no-resolve
- - IP-CIDR6,2001:67c:4e8::/48,📲 电报信息,no-resolve
- - IP-CIDR6,2001:b28:f23d::/48,📲 电报信息,no-resolve
- - IP-CIDR6,2001:b28:f23f::/48,📲 电报信息,no-resolve
  - DOMAIN-SUFFIX,edgedatg.com,🌍 国外媒体
  - DOMAIN-SUFFIX,go.com,🌍 国外媒体
  - DOMAIN-KEYWORD,abematv.akamaized.net,🌍 国外媒体
@@ -2513,6 +2390,7 @@ rules:
  - DOMAIN-SUFFIX,encoretvb.com,🌍 国外媒体
  - DOMAIN-SUFFIX,fox.com,🌍 国外媒体
  - DOMAIN-SUFFIX,foxdcg.com,🌍 国外媒体
+ - DOMAIN-SUFFIX,theplatform.com,🌍 国外媒体
  - DOMAIN-SUFFIX,uplynk.com,🌍 国外媒体
  - DOMAIN,44wilhpljf.execute-api.ap-southeast-1.amazonaws.com,🌍 国外媒体
  - DOMAIN,bcbolthboa-a.akamaihd.net,🌍 国外媒体
@@ -2532,7 +2410,6 @@ rules:
  - DOMAIN-SUFFIX,hbomax.com,🌍 国外媒体
  - DOMAIN-SUFFIX,hbomaxcdn.com,🌍 国外媒体
  - DOMAIN-SUFFIX,hbonow.com,🌍 国外媒体
- - DOMAIN-KEYWORD,.hbogoasia.,🌍 国外媒体
  - DOMAIN,44wilhpljf.execute-api.ap-southeast-1.amazonaws.com,🌍 国外媒体
  - DOMAIN,bcbolthboa-a.akamaihd.net,🌍 国外媒体
  - DOMAIN,cf-images.ap-southeast-1.prod.boltdns.net,🌍 国外媒体
@@ -2542,10 +2419,6 @@ rules:
  - DOMAIN,hboasia3-i.akamaihd.net,🌍 国外媒体
  - DOMAIN,hboasia4-i.akamaihd.net,🌍 国外媒体
  - DOMAIN,hboasia5-i.akamaihd.net,🌍 国外媒体
- - DOMAIN,hboasialive.akamaized.net,🌍 国外媒体
- - DOMAIN,hbogoprod-vod.akamaized.net,🌍 国外媒体
- - DOMAIN,hbolb.onwardsmg.com,🌍 国外媒体
- - DOMAIN,hbounify-prod.evergent.com,🌍 国外媒体
  - DOMAIN,players.brightcove.net,🌍 国外媒体
  - DOMAIN,s3-ap-southeast-1.amazonaws.com,🌍 国外媒体
  - DOMAIN-SUFFIX,hbogoasia.com,🌍 国外媒体
@@ -2704,6 +2577,18 @@ rules:
  - DOMAIN-SUFFIX,youtu.be,🌍 国外媒体
  - DOMAIN-SUFFIX,youtube.com,🌍 国外媒体
  - DOMAIN-SUFFIX,ytimg.com,🌍 国外媒体
+ - DOMAIN-SUFFIX,t.me,📲 电报信息
+ - DOMAIN-SUFFIX,tdesktop.com,📲 电报信息
+ - DOMAIN-SUFFIX,telegra.ph,📲 电报信息
+ - DOMAIN-SUFFIX,telegram.me,📲 电报信息
+ - DOMAIN-SUFFIX,telegram.org,📲 电报信息
+ - DOMAIN-SUFFIX,telesco.pe,📲 电报信息
+ - IP-CIDR,91.108.0.0/16,📲 电报信息,no-resolve
+ - IP-CIDR,109.239.140.0/24,📲 电报信息,no-resolve
+ - IP-CIDR,149.154.160.0/20,📲 电报信息,no-resolve
+ - IP-CIDR6,2001:67c:4e8::/48,📲 电报信息,no-resolve
+ - IP-CIDR6,2001:b28:f23d::/48,📲 电报信息,no-resolve
+ - IP-CIDR6,2001:b28:f23f::/48,📲 电报信息,no-resolve
  - DOMAIN-SUFFIX,1password.com,🚀 节点选择
  - DOMAIN-SUFFIX,adguard.org,🚀 节点选择
  - DOMAIN-SUFFIX,bit.no.com,🚀 节点选择
