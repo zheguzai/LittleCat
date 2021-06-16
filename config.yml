@@ -16,7 +16,6 @@ proxies:
   - {name: 212.102.44.83:31944, server: 212.102.44.83, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
   - {name: 212.102.44.83:35294, server: 212.102.44.83, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
   - {name: 212.102.44.83:40093, server: 212.102.44.83, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: 221.228.99.37:8888, server: 221.228.99.37, port: 8888, type: ss, cipher: aes-256-cfb, password: !<str> 123}
   - {name: 23.82.11.49:37588, server: 23.82.11.49, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
   - {name: 23.82.11.49:39772, server: 23.82.11.49, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
   - {name: 5.226.139.149:47121, server: 5.226.139.149, port: 47121, type: ss, cipher: aes-256-gcm, password: CTK8GXFQgKYQErrghPJfZ6tk}
@@ -29,16 +28,15 @@ proxies:
   - {name: 91.90.121.163:31572, server: 91.90.121.163, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
   - {name: 91.90.121.187:33992, server: 91.90.121.187, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
   - {name: 91.90.123.155:31572, server: 91.90.123.155, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: CA_51, server: 45.62.233.142, port: 2087, type: vmess, uuid: bf53c406-c1e1-11eb-a686-0050569bb8c9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /hBozMgCA/, ws-headers: {Host: a3.ssrsub.one}}
-  - {name: CA_53, server: 45.62.233.34, port: 2087, type: vmess, uuid: b6b44b86-c1e1-11eb-85a3-0050569b8c57, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /IfRHiCow/, ws-headers: {Host: a2.ssrsub.one}}
-  - {name: CA_55, server: 45.62.233.34, port: 2087, type: vmess, uuid: b6b44b86-c1e1-11eb-85a3-0050569b8c57, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /IfRHiCow/, ws-headers: {Host: a2.ssrsub.one}}
-  - {name: CA_57, server: 45.62.233.142, port: 2087, type: vmess, uuid: bf53c406-c1e1-11eb-a686-0050569bb8c9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /hBozMgCA/, ws-headers: {Host: a3.ssrsub.one}}
-  - {name: CA_58, server: 142.47.219.13, port: 2087, type: vmess, uuid: bce319a6-c1e1-11eb-8936-0050569b2f15, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /OW1k0fXV/, ws-headers: {Host: a4.ssrsub.one}}
+  - {name: CA_51, server: 45.62.233.142, port: 2087, type: vmess, uuid: bf53c406-c1e1-11eb-a686-0050569bb8c9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: tls, ws-headers: {Host: a3.ssrsub.one}}
+  - {name: CA_53, server: 45.62.233.34, port: 2087, type: vmess, uuid: b6b44b86-c1e1-11eb-85a3-0050569b8c57, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: tls, ws-headers: {Host: a2.ssrsub.one}}
+  - {name: CA_55, server: 45.62.233.34, port: 2087, type: vmess, uuid: b6b44b86-c1e1-11eb-85a3-0050569b8c57, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: tls, ws-headers: {Host: a2.ssrsub.one}}
+  - {name: CA_57, server: 45.62.233.142, port: 2087, type: vmess, uuid: bf53c406-c1e1-11eb-a686-0050569bb8c9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: tls, ws-headers: {Host: a3.ssrsub.one}}
+  - {name: CA_58, server: 142.47.219.13, port: 2087, type: vmess, uuid: bce319a6-c1e1-11eb-8936-0050569b2f15, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: tls, ws-headers: {Host: a4.ssrsub.one}}
   - {name: cn01.fengyecloud.me:5700, server: cn01.fengyecloud.me, port: 5700, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 30728:nSTbwm, obfs-param: 5238830728.microsoft.com}
   - {name: cu.gkd.world:10693, server: cu.gkd.world, port: 10693, type: ssr, cipher: aes-256-cfb, password: TuXJdt, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 10522:SiJIyH, obfs-param: ""}
   - {name: n21.boom.party:15000, server: n21.boom.party, port: 15000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 11850:ZVYBdy, obfs-param: ""}
   - {name: ss.sg.sshmax.net:8139, server: ss.sg.sshmax.net, port: 8139, type: ss, cipher: chacha20-ietf-poly1305, password: qyzhBfoKRzXl}
-  - {name: ssr2.ssrsub.one:57481, server: ssr2.ssrsub.one, port: 57481, type: ss, cipher: aes-256-cfb, password: https://dlj.tf/ssrsub}
   - {name: 🇨🇳 Relay_🇨🇳CN-🇬🇧GB_652, server: guangzhoucm.cdn223.me, port: 47003, type: vmess, uuid: b815d9cf-eead-3fc1-8c27-9c1ff3962b69, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /hls, ws-headers: {Host: linodeyg.xiaobaiyun.me}}
   - {name: 🇨🇳 Relay_🇹🇼TW-🇹🇼TW_3619, server: hinet.nufsx.top, port: 8088, type: vmess, uuid: 5bf34c7c-1211-4c73-b292-3593cd582005, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: hinet.nufsx.top}}
   - {name: 🇭🇰 HK_249, server: 18.162.168.190, port: 30040, type: vmess, uuid: 39341fe7-b8b7-4605-a811-af1f1d46d4fb, alterId: 100, cipher: auto, tls: false, skip-cert-verify: false}
@@ -50,10 +48,10 @@ proxies:
   - {name: 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_1972, server: hk3.xyttk.vip, port: 80, type: vmess, uuid: 5bf34c7c-1211-4c73-b292-3593cd582005, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: hk3.xyttk.vip}}
   - {name: 🇯🇵 Relay_🇨🇳CN-🇯🇵JP_79, server: 42.81.8.1, port: 80, type: vmess, uuid: 197a81f2-fd2c-4d26-88db-72170a8df6a7, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 006.cdn.8x.cx.hit.edu.cn}}
   - {name: 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_473, server: trojan-sb-95-tw.speedtestcustom.tk, port: 443, type: trojan, password: 76f5c50900006f6674ad8c443b39edd5, sni: trojan-sb-95-tw.speedtestcustom.tk, skip-cert-verify: false}
-  - {name: 🇺🇲 Relay_🇺🇸US-🇺🇸US_4963, server: ac2088.herokuapp.com, port: 443, type: vmess, uuid: d1babe08-f8ac-490b-b66f-9be27467f3cc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /d1babe08-f8ac-490b-b66f-9be27467f3cc-vmess, ws-headers: {Host: ac2088.herokuapp.com}}
-  - {name: 🇺🇲 Relay_🇺🇸US-🇺🇸US_4964, server: usa4a-node.3366test.com, port: 13723, type: vmess, uuid: a90597c1-bab3-4217-ad6f-0838675c8634, alterId: 10, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ray, ws-headers: {Host: usa4a-node.3366test.com}}
-  - {name: 🇺🇲 Relay_🇺🇸US-🇺🇸US_714, server: vip9-3.lounge.workers.dev, port: 443, type: vmess, uuid: f5121518-a614-4a16-b1f1-8dbc0c502854, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: vip9-3.lounge.workers.dev}}
-  - {name: 🇺🇲 Relay_🇺🇸US-🇺🇸US_718, server: ac2088.herokuapp.com, port: 443, type: vmess, uuid: d1babe08-f8ac-490b-b66f-9be27467f3cc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /d1babe08-f8ac-490b-b66f-9be27467f3cc-vmess, ws-headers: {Host: ac2088.herokuapp.com}}
+  - {name: 🇺🇲 Relay_🇺🇸US-🇺🇸US_4963, server: ac2088.herokuapp.com, port: 443, type: vmess, uuid: d1babe08-f8ac-490b-b66f-9be27467f3cc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: tls, ws-headers: {Host: ac2088.herokuapp.com}}
+  - {name: 🇺🇲 Relay_🇺🇸US-🇺🇸US_4964, server: usa4a-node.3366test.com, port: 13723, type: vmess, uuid: a90597c1-bab3-4217-ad6f-0838675c8634, alterId: 10, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: tls, ws-headers: {Host: usa4a-node.3366test.com}}
+  - {name: 🇺🇲 Relay_🇺🇸US-🇺🇸US_714, server: vip9-3.lounge.workers.dev, port: 443, type: vmess, uuid: f5121518-a614-4a16-b1f1-8dbc0c502854, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: tls, ws-headers: {Host: vip9-3.lounge.workers.dev}}
+  - {name: 🇺🇲 Relay_🇺🇸US-🇺🇸US_718, server: ac2088.herokuapp.com, port: 443, type: vmess, uuid: d1babe08-f8ac-490b-b66f-9be27467f3cc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: tls, ws-headers: {Host: ac2088.herokuapp.com}}
   - {name: 🇺🇲 Relay_🏁ZZ-🇺🇸US_5307, server: 141.101.120.190, port: 80, type: vmess, uuid: 6b0dc2a5-0b70-4def-ba65-93d9c1237a0e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: v2ray.jun8.workers.dev}}
 proxy-groups:
   - name: 🚀 节点选择
@@ -78,7 +76,6 @@ proxy-groups:
       - 212.102.44.83:31944
       - 212.102.44.83:35294
       - 212.102.44.83:40093
-      - 221.228.99.37:8888
       - 23.82.11.49:37588
       - 23.82.11.49:39772
       - 5.226.139.149:47121
@@ -100,7 +97,6 @@ proxy-groups:
       - cu.gkd.world:10693
       - n21.boom.party:15000
       - ss.sg.sshmax.net:8139
-      - ssr2.ssrsub.one:57481
       - 🇨🇳 Relay_🇨🇳CN-🇬🇧GB_652
       - 🇨🇳 Relay_🇹🇼TW-🇹🇼TW_3619
       - 🇭🇰 HK_249
@@ -139,7 +135,6 @@ proxy-groups:
       - 212.102.44.83:31944
       - 212.102.44.83:35294
       - 212.102.44.83:40093
-      - 221.228.99.37:8888
       - 23.82.11.49:37588
       - 23.82.11.49:39772
       - 5.226.139.149:47121
@@ -161,7 +156,6 @@ proxy-groups:
       - cu.gkd.world:10693
       - n21.boom.party:15000
       - ss.sg.sshmax.net:8139
-      - ssr2.ssrsub.one:57481
       - 🇨🇳 Relay_🇨🇳CN-🇬🇧GB_652
       - 🇨🇳 Relay_🇹🇼TW-🇹🇼TW_3619
       - 🇭🇰 HK_249
@@ -201,7 +195,6 @@ proxy-groups:
       - 212.102.44.83:31944
       - 212.102.44.83:35294
       - 212.102.44.83:40093
-      - 221.228.99.37:8888
       - 23.82.11.49:37588
       - 23.82.11.49:39772
       - 5.226.139.149:47121
@@ -223,7 +216,6 @@ proxy-groups:
       - cu.gkd.world:10693
       - n21.boom.party:15000
       - ss.sg.sshmax.net:8139
-      - ssr2.ssrsub.one:57481
       - 🇨🇳 Relay_🇨🇳CN-🇬🇧GB_652
       - 🇨🇳 Relay_🇹🇼TW-🇹🇼TW_3619
       - 🇭🇰 HK_249
@@ -262,7 +254,6 @@ proxy-groups:
       - 212.102.44.83:31944
       - 212.102.44.83:35294
       - 212.102.44.83:40093
-      - 221.228.99.37:8888
       - 23.82.11.49:37588
       - 23.82.11.49:39772
       - 5.226.139.149:47121
@@ -284,7 +275,6 @@ proxy-groups:
       - cu.gkd.world:10693
       - n21.boom.party:15000
       - ss.sg.sshmax.net:8139
-      - ssr2.ssrsub.one:57481
       - 🇨🇳 Relay_🇨🇳CN-🇬🇧GB_652
       - 🇨🇳 Relay_🇹🇼TW-🇹🇼TW_3619
       - 🇭🇰 HK_249
@@ -323,7 +313,6 @@ proxy-groups:
       - 212.102.44.83:31944
       - 212.102.44.83:35294
       - 212.102.44.83:40093
-      - 221.228.99.37:8888
       - 23.82.11.49:37588
       - 23.82.11.49:39772
       - 5.226.139.149:47121
@@ -345,7 +334,6 @@ proxy-groups:
       - cu.gkd.world:10693
       - n21.boom.party:15000
       - ss.sg.sshmax.net:8139
-      - ssr2.ssrsub.one:57481
       - 🇨🇳 Relay_🇨🇳CN-🇬🇧GB_652
       - 🇨🇳 Relay_🇹🇼TW-🇹🇼TW_3619
       - 🇭🇰 HK_249
@@ -384,7 +372,6 @@ proxy-groups:
       - 212.102.44.83:31944
       - 212.102.44.83:35294
       - 212.102.44.83:40093
-      - 221.228.99.37:8888
       - 23.82.11.49:37588
       - 23.82.11.49:39772
       - 5.226.139.149:47121
@@ -406,7 +393,6 @@ proxy-groups:
       - cu.gkd.world:10693
       - n21.boom.party:15000
       - ss.sg.sshmax.net:8139
-      - ssr2.ssrsub.one:57481
       - 🇨🇳 Relay_🇨🇳CN-🇬🇧GB_652
       - 🇨🇳 Relay_🇹🇼TW-🇹🇼TW_3619
       - 🇭🇰 HK_249
@@ -462,7 +448,6 @@ proxy-groups:
       - 212.102.44.83:31944
       - 212.102.44.83:35294
       - 212.102.44.83:40093
-      - 221.228.99.37:8888
       - 23.82.11.49:37588
       - 23.82.11.49:39772
       - 5.226.139.149:47121
@@ -484,7 +469,6 @@ proxy-groups:
       - cu.gkd.world:10693
       - n21.boom.party:15000
       - ss.sg.sshmax.net:8139
-      - ssr2.ssrsub.one:57481
       - 🇨🇳 Relay_🇨🇳CN-🇬🇧GB_652
       - 🇨🇳 Relay_🇹🇼TW-🇹🇼TW_3619
       - 🇭🇰 HK_249
@@ -3815,4 +3799,3 @@ rules:
  - IP-CIDR,101.199.196.0/22,🎯 全球直连,no-resolve
  - GEOIP,CN,🎯 全球直连
  - MATCH,🐟 漏网之鱼
-
