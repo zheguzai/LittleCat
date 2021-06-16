@@ -43,22 +43,22 @@ proxies:
   - {name: cu.gkd.world:10693, server: cu.gkd.world, port: 10693, type: ssr, cipher: aes-256-cfb, password: TuXJdt, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 10522:SiJIyH, obfs-param: ""}
   - {name: n21.boom.party:15000, server: n21.boom.party, port: 15000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 11850:ZVYBdy, obfs-param: ""}
   - {name: ss.sg.sshmax.net:8139, server: ss.sg.sshmax.net, port: 8139, type: ss, cipher: chacha20-ietf-poly1305, password: qyzhBfoKRzXl}
-  - {name: 🇨🇳 Relay_🇨🇳CN-🇬🇧GB_652, server: guangzhoucm.cdn223.me, port: 47003, type: vmess, uuid: b815d9cf-eead-3fc1-8c27-9c1ff3962b69, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /hls, ws-headers: {Host: linodeyg.xiaobaiyun.me}}
-  - {name: 🇨🇳 Relay_🇹🇼TW-🇹🇼TW_3619, server: hinet.nufsx.top, port: 8088, type: vmess, uuid: 5bf34c7c-1211-4c73-b292-3593cd582005, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: hinet.nufsx.top}}
-  - {name: 🇭🇰 HK_249, server: 18.162.168.190, port: 30040, type: vmess, uuid: 39341fe7-b8b7-4605-a811-af1f1d46d4fb, alterId: 100, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_664, server: hz.hxlm.cc, port: 9111, type: vmess, uuid: 3d6a6885-4d84-4fad-bb60-6922f459b3f3, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: hz.hxlm.cc}}
-  - {name: 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_666, server: cscu.hxlm.cc, port: 9111, type: vmess, uuid: 3d6a6885-4d84-4fad-bb60-6922f459b3f3, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: cscu.hxlm.cc}}
-  - {name: 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_667, server: cscu.hxlm.cc, port: 10011, type: vmess, uuid: 3d6a6885-4d84-4fad-bb60-6922f459b3f3, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: cscu.hxlm.cc}}
-  - {name: 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_1970, server: hk4.xyttk.vip, port: 80, type: vmess, uuid: 5bf34c7c-1211-4c73-b292-3593cd582005, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: hk4.xyttk.vip}}
-  - {name: 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_1971, server: hk.1.xyttk.vip, port: 80, type: vmess, uuid: 5bf34c7c-1211-4c73-b292-3593cd582005, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: hk.1.xyttk.vip}}
-  - {name: 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_1972, server: hk3.xyttk.vip, port: 80, type: vmess, uuid: 5bf34c7c-1211-4c73-b292-3593cd582005, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: hk3.xyttk.vip}}
-  - {name: 🇯🇵 Relay_🇨🇳CN-🇯🇵JP_79, server: 42.81.8.1, port: 80, type: vmess, uuid: 197a81f2-fd2c-4d26-88db-72170a8df6a7, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 006.cdn.8x.cx.hit.edu.cn}}
-  - {name: 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_473, server: trojan-sb-95-tw.speedtestcustom.tk, port: 443, type: trojan, password: 76f5c50900006f6674ad8c443b39edd5, sni: trojan-sb-95-tw.speedtestcustom.tk, skip-cert-verify: false}
-  - {name: 🇺🇲 Relay_🇺🇸US-🇺🇸US_4963, server: ac2088.herokuapp.com, port: 443, type: vmess, uuid: d1babe08-f8ac-490b-b66f-9be27467f3cc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: tls, ws-headers: {Host: ac2088.herokuapp.com}}
-  - {name: 🇺🇲 Relay_🇺🇸US-🇺🇸US_4964, server: usa4a-node.3366test.com, port: 13723, type: vmess, uuid: a90597c1-bab3-4217-ad6f-0838675c8634, alterId: 10, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: tls, ws-headers: {Host: usa4a-node.3366test.com}}
-  - {name: 🇺🇲 Relay_🇺🇸US-🇺🇸US_714, server: vip9-3.lounge.workers.dev, port: 443, type: vmess, uuid: f5121518-a614-4a16-b1f1-8dbc0c502854, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: tls, ws-headers: {Host: vip9-3.lounge.workers.dev}}
-  - {name: 🇺🇲 Relay_🇺🇸US-🇺🇸US_718, server: ac2088.herokuapp.com, port: 443, type: vmess, uuid: d1babe08-f8ac-490b-b66f-9be27467f3cc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: tls, ws-headers: {Host: ac2088.herokuapp.com}}
-  - {name: 🇺🇲 Relay_🏁ZZ-🇺🇸US_5307, server: 141.101.120.190, port: 80, type: vmess, uuid: 6b0dc2a5-0b70-4def-ba65-93d9c1237a0e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: v2ray.jun8.workers.dev}}
+  - {name: Relay_🇨🇳CN-🇬🇧GB_652, server: guangzhoucm.cdn223.me, port: 47003, type: vmess, uuid: b815d9cf-eead-3fc1-8c27-9c1ff3962b69, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /hls, ws-headers: {Host: linodeyg.xiaobaiyun.me}}
+  - {name: Relay_🇹🇼TW-🇹🇼TW_3619, server: hinet.nufsx.top, port: 8088, type: vmess, uuid: 5bf34c7c-1211-4c73-b292-3593cd582005, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: hinet.nufsx.top}}
+  - {name: HK_249, server: 18.162.168.190, port: 30040, type: vmess, uuid: 39341fe7-b8b7-4605-a811-af1f1d46d4fb, alterId: 100, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: Relay_🇨🇳CN-🇭🇰HK_664, server: hz.hxlm.cc, port: 9111, type: vmess, uuid: 3d6a6885-4d84-4fad-bb60-6922f459b3f3, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: hz.hxlm.cc}}
+  - {name: Relay_🇨🇳CN-🇭🇰HK_666, server: cscu.hxlm.cc, port: 9111, type: vmess, uuid: 3d6a6885-4d84-4fad-bb60-6922f459b3f3, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: cscu.hxlm.cc}}
+  - {name: Relay_🇨🇳CN-🇭🇰HK_667, server: cscu.hxlm.cc, port: 10011, type: vmess, uuid: 3d6a6885-4d84-4fad-bb60-6922f459b3f3, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: cscu.hxlm.cc}}
+  - {name: Relay_🇭🇰HK-🇭🇰HK_1970, server: hk4.xyttk.vip, port: 80, type: vmess, uuid: 5bf34c7c-1211-4c73-b292-3593cd582005, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: hk4.xyttk.vip}}
+  - {name: Relay_🇭🇰HK-🇭🇰HK_1971, server: hk.1.xyttk.vip, port: 80, type: vmess, uuid: 5bf34c7c-1211-4c73-b292-3593cd582005, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: hk.1.xyttk.vip}}
+  - {name: Relay_🇭🇰HK-🇭🇰HK_1972, server: hk3.xyttk.vip, port: 80, type: vmess, uuid: 5bf34c7c-1211-4c73-b292-3593cd582005, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: hk3.xyttk.vip}}
+  - {name: Relay_🇨🇳CN-🇯🇵JP_79, server: 42.81.8.1, port: 80, type: vmess, uuid: 197a81f2-fd2c-4d26-88db-72170a8df6a7, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 006.cdn.8x.cx.hit.edu.cn}}
+  - {name: Relay_🇸🇬SG-🇸🇬SG_473, server: trojan-sb-95-tw.speedtestcustom.tk, port: 443, type: trojan, password: 76f5c50900006f6674ad8c443b39edd5, sni: trojan-sb-95-tw.speedtestcustom.tk, skip-cert-verify: false}
+  - {name: Relay_🇺🇸US-🇺🇸US_4963, server: ac2088.herokuapp.com, port: 443, type: vmess, uuid: d1babe08-f8ac-490b-b66f-9be27467f3cc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: tls, ws-headers: {Host: ac2088.herokuapp.com}}
+  - {name: Relay_🇺🇸US-🇺🇸US_4964, server: usa4a-node.3366test.com, port: 13723, type: vmess, uuid: a90597c1-bab3-4217-ad6f-0838675c8634, alterId: 10, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: tls, ws-headers: {Host: usa4a-node.3366test.com}}
+  - {name: Relay_🇺🇸US-🇺🇸US_714, server: vip9-3.lounge.workers.dev, port: 443, type: vmess, uuid: f5121518-a614-4a16-b1f1-8dbc0c502854, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: tls, ws-headers: {Host: vip9-3.lounge.workers.dev}}
+  - {name: Relay_🇺🇸US-🇺🇸US_718, server: ac2088.herokuapp.com, port: 443, type: vmess, uuid: d1babe08-f8ac-490b-b66f-9be27467f3cc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: tls, ws-headers: {Host: ac2088.herokuapp.com}}
+  - {name: Relay_🏁ZZ-🇺🇸US_5307, server: 141.101.120.190, port: 80, type: vmess, uuid: 6b0dc2a5-0b70-4def-ba65-93d9c1237a0e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: v2ray.jun8.workers.dev}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -103,22 +103,22 @@ proxy-groups:
       - cu.gkd.world:10693
       - n21.boom.party:15000
       - ss.sg.sshmax.net:8139
-      - 🇨🇳 Relay_🇨🇳CN-🇬🇧GB_652
-      - 🇨🇳 Relay_🇹🇼TW-🇹🇼TW_3619
-      - 🇭🇰 HK_249
-      - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_664
-      - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_666
-      - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_667
-      - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_1970
-      - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_1971
-      - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_1972
-      - 🇯🇵 Relay_🇨🇳CN-🇯🇵JP_79
-      - 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_473
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_4963
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_4964
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_714
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_718
-      - 🇺🇲 Relay_🏁ZZ-🇺🇸US_5307
+      - Relay_🇨🇳CN-🇬🇧GB_652
+      - Relay_🇹🇼TW-🇹🇼TW_3619
+      - HK_249
+      - Relay_🇨🇳CN-🇭🇰HK_664
+      - Relay_🇨🇳CN-🇭🇰HK_666
+      - Relay_🇨🇳CN-🇭🇰HK_667
+      - Relay_🇭🇰HK-🇭🇰HK_1970
+      - Relay_🇭🇰HK-🇭🇰HK_1971
+      - Relay_🇭🇰HK-🇭🇰HK_1972
+      - Relay_🇨🇳CN-🇯🇵JP_79
+      - Relay_🇸🇬SG-🇸🇬SG_473
+      - Relay_🇺🇸US-🇺🇸US_4963
+      - Relay_🇺🇸US-🇺🇸US_4964
+      - Relay_🇺🇸US-🇺🇸US_714
+      - Relay_🇺🇸US-🇺🇸US_718
+      - Relay_🏁ZZ-🇺🇸US_5307
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -162,22 +162,22 @@ proxy-groups:
       - cu.gkd.world:10693
       - n21.boom.party:15000
       - ss.sg.sshmax.net:8139
-      - 🇨🇳 Relay_🇨🇳CN-🇬🇧GB_652
-      - 🇨🇳 Relay_🇹🇼TW-🇹🇼TW_3619
-      - 🇭🇰 HK_249
-      - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_664
-      - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_666
-      - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_667
-      - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_1970
-      - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_1971
-      - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_1972
-      - 🇯🇵 Relay_🇨🇳CN-🇯🇵JP_79
-      - 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_473
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_4963
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_4964
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_714
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_718
-      - 🇺🇲 Relay_🏁ZZ-🇺🇸US_5307
+      - Relay_🇨🇳CN-🇬🇧GB_652
+      - Relay_🇹🇼TW-🇹🇼TW_3619
+      - HK_249
+      - Relay_🇨🇳CN-🇭🇰HK_664
+      - Relay_🇨🇳CN-🇭🇰HK_666
+      - Relay_🇨🇳CN-🇭🇰HK_667
+      - Relay_🇭🇰HK-🇭🇰HK_1970
+      - Relay_🇭🇰HK-🇭🇰HK_1971
+      - Relay_🇭🇰HK-🇭🇰HK_1972
+      - Relay_🇨🇳CN-🇯🇵JP_79
+      - Relay_🇸🇬SG-🇸🇬SG_473
+      - Relay_🇺🇸US-🇺🇸US_4963
+      - Relay_🇺🇸US-🇺🇸US_4964
+      - Relay_🇺🇸US-🇺🇸US_714
+      - Relay_🇺🇸US-🇺🇸US_718
+      - Relay_🏁ZZ-🇺🇸US_5307
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -222,22 +222,22 @@ proxy-groups:
       - cu.gkd.world:10693
       - n21.boom.party:15000
       - ss.sg.sshmax.net:8139
-      - 🇨🇳 Relay_🇨🇳CN-🇬🇧GB_652
-      - 🇨🇳 Relay_🇹🇼TW-🇹🇼TW_3619
-      - 🇭🇰 HK_249
-      - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_664
-      - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_666
-      - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_667
-      - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_1970
-      - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_1971
-      - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_1972
-      - 🇯🇵 Relay_🇨🇳CN-🇯🇵JP_79
-      - 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_473
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_4963
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_4964
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_714
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_718
-      - 🇺🇲 Relay_🏁ZZ-🇺🇸US_5307
+      - Relay_🇨🇳CN-🇬🇧GB_652
+      - Relay_🇹🇼TW-🇹🇼TW_3619
+      - HK_249
+      - Relay_🇨🇳CN-🇭🇰HK_664
+      - Relay_🇨🇳CN-🇭🇰HK_666
+      - Relay_🇨🇳CN-🇭🇰HK_667
+      - Relay_🇭🇰HK-🇭🇰HK_1970
+      - Relay_🇭🇰HK-🇭🇰HK_1971
+      - Relay_🇭🇰HK-🇭🇰HK_1972
+      - Relay_🇨🇳CN-🇯🇵JP_79
+      - Relay_🇸🇬SG-🇸🇬SG_473
+      - Relay_🇺🇸US-🇺🇸US_4963
+      - Relay_🇺🇸US-🇺🇸US_4964
+      - Relay_🇺🇸US-🇺🇸US_714
+      - Relay_🇺🇸US-🇺🇸US_718
+      - Relay_🏁ZZ-🇺🇸US_5307
   - name: 📲 电报信息
     type: select
     proxies:
@@ -281,22 +281,22 @@ proxy-groups:
       - cu.gkd.world:10693
       - n21.boom.party:15000
       - ss.sg.sshmax.net:8139
-      - 🇨🇳 Relay_🇨🇳CN-🇬🇧GB_652
-      - 🇨🇳 Relay_🇹🇼TW-🇹🇼TW_3619
-      - 🇭🇰 HK_249
-      - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_664
-      - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_666
-      - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_667
-      - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_1970
-      - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_1971
-      - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_1972
-      - 🇯🇵 Relay_🇨🇳CN-🇯🇵JP_79
-      - 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_473
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_4963
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_4964
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_714
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_718
-      - 🇺🇲 Relay_🏁ZZ-🇺🇸US_5307
+      - Relay_🇨🇳CN-🇬🇧GB_652
+      - Relay_🇹🇼TW-🇹🇼TW_3619
+      - HK_249
+      - Relay_🇨🇳CN-🇭🇰HK_664
+      - Relay_🇨🇳CN-🇭🇰HK_666
+      - Relay_🇨🇳CN-🇭🇰HK_667
+      - Relay_🇭🇰HK-🇭🇰HK_1970
+      - Relay_🇭🇰HK-🇭🇰HK_1971
+      - Relay_🇭🇰HK-🇭🇰HK_1972
+      - Relay_🇨🇳CN-🇯🇵JP_79
+      - Relay_🇸🇬SG-🇸🇬SG_473
+      - Relay_🇺🇸US-🇺🇸US_4963
+      - Relay_🇺🇸US-🇺🇸US_4964
+      - Relay_🇺🇸US-🇺🇸US_714
+      - Relay_🇺🇸US-🇺🇸US_718
+      - Relay_🏁ZZ-🇺🇸US_5307
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -340,22 +340,22 @@ proxy-groups:
       - cu.gkd.world:10693
       - n21.boom.party:15000
       - ss.sg.sshmax.net:8139
-      - 🇨🇳 Relay_🇨🇳CN-🇬🇧GB_652
-      - 🇨🇳 Relay_🇹🇼TW-🇹🇼TW_3619
-      - 🇭🇰 HK_249
-      - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_664
-      - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_666
-      - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_667
-      - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_1970
-      - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_1971
-      - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_1972
-      - 🇯🇵 Relay_🇨🇳CN-🇯🇵JP_79
-      - 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_473
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_4963
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_4964
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_714
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_718
-      - 🇺🇲 Relay_🏁ZZ-🇺🇸US_5307
+      - Relay_🇨🇳CN-🇬🇧GB_652
+      - Relay_🇹🇼TW-🇹🇼TW_3619
+      - HK_249
+      - Relay_🇨🇳CN-🇭🇰HK_664
+      - Relay_🇨🇳CN-🇭🇰HK_666
+      - Relay_🇨🇳CN-🇭🇰HK_667
+      - Relay_🇭🇰HK-🇭🇰HK_1970
+      - Relay_🇭🇰HK-🇭🇰HK_1971
+      - Relay_🇭🇰HK-🇭🇰HK_1972
+      - Relay_🇨🇳CN-🇯🇵JP_79
+      - Relay_🇸🇬SG-🇸🇬SG_473
+      - Relay_🇺🇸US-🇺🇸US_4963
+      - Relay_🇺🇸US-🇺🇸US_4964
+      - Relay_🇺🇸US-🇺🇸US_714
+      - Relay_🇺🇸US-🇺🇸US_718
+      - Relay_🏁ZZ-🇺🇸US_5307
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -399,22 +399,22 @@ proxy-groups:
       - cu.gkd.world:10693
       - n21.boom.party:15000
       - ss.sg.sshmax.net:8139
-      - 🇨🇳 Relay_🇨🇳CN-🇬🇧GB_652
-      - 🇨🇳 Relay_🇹🇼TW-🇹🇼TW_3619
-      - 🇭🇰 HK_249
-      - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_664
-      - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_666
-      - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_667
-      - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_1970
-      - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_1971
-      - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_1972
-      - 🇯🇵 Relay_🇨🇳CN-🇯🇵JP_79
-      - 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_473
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_4963
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_4964
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_714
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_718
-      - 🇺🇲 Relay_🏁ZZ-🇺🇸US_5307
+      - Relay_🇨🇳CN-🇬🇧GB_652
+      - Relay_🇹🇼TW-🇹🇼TW_3619
+      - HK_249
+      - Relay_🇨🇳CN-🇭🇰HK_664
+      - Relay_🇨🇳CN-🇭🇰HK_666
+      - Relay_🇨🇳CN-🇭🇰HK_667
+      - Relay_🇭🇰HK-🇭🇰HK_1970
+      - Relay_🇭🇰HK-🇭🇰HK_1971
+      - Relay_🇭🇰HK-🇭🇰HK_1972
+      - Relay_🇨🇳CN-🇯🇵JP_79
+      - Relay_🇸🇬SG-🇸🇬SG_473
+      - Relay_🇺🇸US-🇺🇸US_4963
+      - Relay_🇺🇸US-🇺🇸US_4964
+      - Relay_🇺🇸US-🇺🇸US_714
+      - Relay_🇺🇸US-🇺🇸US_718
+      - Relay_🏁ZZ-🇺🇸US_5307
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -475,22 +475,22 @@ proxy-groups:
       - cu.gkd.world:10693
       - n21.boom.party:15000
       - ss.sg.sshmax.net:8139
-      - 🇨🇳 Relay_🇨🇳CN-🇬🇧GB_652
-      - 🇨🇳 Relay_🇹🇼TW-🇹🇼TW_3619
-      - 🇭🇰 HK_249
-      - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_664
-      - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_666
-      - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_667
-      - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_1970
-      - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_1971
-      - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_1972
-      - 🇯🇵 Relay_🇨🇳CN-🇯🇵JP_79
-      - 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_473
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_4963
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_4964
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_714
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_718
-      - 🇺🇲 Relay_🏁ZZ-🇺🇸US_5307
+      - Relay_🇨🇳CN-🇬🇧GB_652
+      - Relay_🇹🇼TW-🇹🇼TW_3619
+      - HK_249
+      - Relay_🇨🇳CN-🇭🇰HK_664
+      - Relay_🇨🇳CN-🇭🇰HK_666
+      - Relay_🇨🇳CN-🇭🇰HK_667
+      - Relay_🇭🇰HK-🇭🇰HK_1970
+      - Relay_🇭🇰HK-🇭🇰HK_1971
+      - Relay_🇭🇰HK-🇭🇰HK_1972
+      - Relay_🇨🇳CN-🇯🇵JP_79
+      - Relay_🇸🇬SG-🇸🇬SG_473
+      - Relay_🇺🇸US-🇺🇸US_4963
+      - Relay_🇺🇸US-🇺🇸US_4964
+      - Relay_🇺🇸US-🇺🇸US_714
+      - Relay_🇺🇸US-🇺🇸US_718
+      - Relay_🏁ZZ-🇺🇸US_5307
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
