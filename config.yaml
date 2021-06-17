@@ -6,6 +6,7 @@ log-level: info
 external-controller: 127.0.0.1:9090
 
 proxies:
+  - {name: heroku, server: 104.18.130.18, port: 443, type: vmess, uuid: ad806487-2d26-4636-98b6-ab85cc8521f7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: floral-waterfall-b11a.beingpapaya.workers.dev}}
   - {name: 103.93.56.151:57478, server: 103.93.56.151, port: 57478, type: ss, cipher: chacha20-ietf-poly1305, password: ku382YXK8cLE}
   - {name: 137.59.52.107:33992, server: 137.59.52.107, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
   - {name: 148.72.169.213:33992, server: 148.72.169.213, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
@@ -25,7 +26,6 @@ proxies:
   - {name: 5.226.139.149:47121, server: 5.226.139.149, port: 47121, type: ss, cipher: aes-256-gcm, password: CTK8GXFQgKYQErrghPJfZ6tk}
   - {name: 🇨🇳 Relay_🇨🇳CN-🇬🇧GB_652, server: guangzhoucm.cdn223.me, port: 47003, type: vmess, uuid: b815d9cf-eead-3fc1-8c27-9c1ff3962b69, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /hls, ws-headers: {Host: linodeyg.xiaobaiyun.me}}
   - {name: 212.102.44.83:35294, server: 212.102.44.83, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
-  - {name: cu.gkd.world:10693, server: cu.gkd.world, port: 10693, type: ssr, cipher: aes-256-cfb, password: TuXJdt, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 10522:SiJIyH, obfs-param: ""}
   - {name: 84.17.35.118:49396, server: 84.17.35.118, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
   - {name: 198.147.22.87:33992, server: 198.147.22.87, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
   - {name: 198.147.22.87:35200, server: 198.147.22.87, port: 35200, type: ss, cipher: aes-256-gcm, password: WBLAbN6AwtV5avBx73hFRLB3}
@@ -70,6 +70,7 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - DIRECT
+      - heroku
       - 103.93.56.151:57478
       - 137.59.52.107:33992
       - 148.72.169.213:33992
@@ -89,7 +90,6 @@ proxy-groups:
       - 5.226.139.149:47121
       - 🇨🇳 Relay_🇨🇳CN-🇬🇧GB_652
       - 212.102.44.83:35294
-      - cu.gkd.world:10693
       - 84.17.35.118:49396
       - 198.147.22.87:33992
       - 198.147.22.87:35200
@@ -133,6 +133,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - heroku
       - 103.93.56.151:57478
       - 137.59.52.107:33992
       - 148.72.169.213:33992
@@ -152,7 +153,6 @@ proxy-groups:
       - 5.226.139.149:47121
       - 🇨🇳 Relay_🇨🇳CN-🇬🇧GB_652
       - 212.102.44.83:35294
-      - cu.gkd.world:10693
       - 84.17.35.118:49396
       - 198.147.22.87:33992
       - 198.147.22.87:35200
@@ -197,6 +197,7 @@ proxy-groups:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - heroku
       - 103.93.56.151:57478
       - 137.59.52.107:33992
       - 148.72.169.213:33992
@@ -216,7 +217,6 @@ proxy-groups:
       - 5.226.139.149:47121
       - 🇨🇳 Relay_🇨🇳CN-🇬🇧GB_652
       - 212.102.44.83:35294
-      - cu.gkd.world:10693
       - 84.17.35.118:49396
       - 198.147.22.87:33992
       - 198.147.22.87:35200
@@ -260,6 +260,7 @@ proxy-groups:
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - heroku
       - 103.93.56.151:57478
       - 137.59.52.107:33992
       - 148.72.169.213:33992
@@ -279,7 +280,6 @@ proxy-groups:
       - 5.226.139.149:47121
       - 🇨🇳 Relay_🇨🇳CN-🇬🇧GB_652
       - 212.102.44.83:35294
-      - cu.gkd.world:10693
       - 84.17.35.118:49396
       - 198.147.22.87:33992
       - 198.147.22.87:35200
@@ -323,6 +323,7 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
+      - heroku
       - 103.93.56.151:57478
       - 137.59.52.107:33992
       - 148.72.169.213:33992
@@ -342,7 +343,6 @@ proxy-groups:
       - 5.226.139.149:47121
       - 🇨🇳 Relay_🇨🇳CN-🇬🇧GB_652
       - 212.102.44.83:35294
-      - cu.gkd.world:10693
       - 84.17.35.118:49396
       - 198.147.22.87:33992
       - 198.147.22.87:35200
@@ -386,6 +386,7 @@ proxy-groups:
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - heroku
       - 103.93.56.151:57478
       - 137.59.52.107:33992
       - 148.72.169.213:33992
@@ -405,7 +406,6 @@ proxy-groups:
       - 5.226.139.149:47121
       - 🇨🇳 Relay_🇨🇳CN-🇬🇧GB_652
       - 212.102.44.83:35294
-      - cu.gkd.world:10693
       - 84.17.35.118:49396
       - 198.147.22.87:33992
       - 198.147.22.87:35200
@@ -466,6 +466,7 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - heroku
       - 103.93.56.151:57478
       - 137.59.52.107:33992
       - 148.72.169.213:33992
@@ -485,7 +486,6 @@ proxy-groups:
       - 5.226.139.149:47121
       - 🇨🇳 Relay_🇨🇳CN-🇬🇧GB_652
       - 212.102.44.83:35294
-      - cu.gkd.world:10693
       - 84.17.35.118:49396
       - 198.147.22.87:33992
       - 198.147.22.87:35200
