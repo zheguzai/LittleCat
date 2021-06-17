@@ -3,7 +3,7 @@ socks-port: 7891
 allow-lan: true
 mode: Rule
 log-level: info
-external-controller: :9090
+external-controller: 127.0.0.1:9090
 proxies:
   - {name: 🇸🇬 SG_1953, server: 89.187.163.215, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
   - {name: 🇨🇳 CN_411, server: 221.228.99.37, port: 8888, type: ss, cipher: aes-256-cfb, password: !<str> 123}
